@@ -1,76 +1,75 @@
-# Auto-GPT: An Autonomous GPT-4 Experiment
+# AIVA (Autonomous Intelligent Virtual Assistant)
 
-##### Get help - [Q&A](https://github.com/Significant-Gravitas/Auto-GPT/discussions/categories/q-a) or [Discord](https://discord.gg/autogpt)
+##### Dies ist ein erstes Experiment und Pilotprojekt, das den Versuch zeigt, eine autonome K.I. als Backend für photovolt AI zu implementieren.
 
-<hr/>
-
-
-Auto-GPT is an experimental open-source application showcasing the capabilities of the GPT-4 language model. This program, driven by GPT-4, chains together LLM "thoughts", to autonomously achieve whatever goal you set. As one of the first examples of GPT-4 running fully autonomously, Auto-GPT pushes the boundaries of what is possible with AI.
+AIVA ist ein Auto-GPT fork. Der überwiegende Teil des Codes basiert auf Auto-GPT. Auto-GPT ist eine experimentelle Open-Source-Anwendung, die die Fähigkeiten des GPT-4-Sprachmodells demonstriert. Dieses Programm, angetrieben von GPT-4, verknüpft LLM-"Gedanken" zusammen, um das gesetzte Ziel autonom zu erreichen. Als eines der ersten Beispiele dafür, dass GPT-4 vollständig autonom läuft, verschiebt Auto-GPT die Grenzen dessen, was mit KI möglich ist.
 
 
 
 ## Features
 
-- 🌐 Internet access for searches and information gathering
-- 💾 Long-term and short-term memory management
-- 🧠 GPT-4 instances for text generation
-- 🔗 Access to popular websites and platforms
-- 🗃️ File storage and summarization with GPT-3.5
-- 🔌 Extensibility with Plugins
+- 🌐 Internetzugang für Suchen und Informationssammlung
+- 💾 Langzeit- und Kurzzeitgedächtnismanagement
+- 🧠 GPT-4-Instanzen für die Textgenerierung
+- 🔗 Zugriff auf beliebte Websites und Plattformen
+- 🗃️ Dateispeicherung und -zusammenfassung mit GPT-3.5
+- 🔌 Erweiterbarkeit mit Plugins
 
-## Quickstart
+## Schnellstart
 
-0. Check out the [wiki](https://github.com/Significant-Gravitas/Nexus/wiki)
-1. Get an OpenAI [API Key](https://platform.openai.com/account/api-keys)
-2. Download the [latest release](https://github.com/Significant-Gravitas/Auto-GPT/releases/latest)
-3. Follow the [installation instructions][docs/setup]
-4. Configure any additional features you want, or install some [plugins][docs/plugins]
-5. [Run][docs/usage] the app
+0. Durchsuche das [Wiki](https://github.com/Significant-Gravitas/Nexus/wiki)
+1. Einrichtung eines OpenAI [API Schlüssels](https://platform.openai.com/account/api-keys)
+2. Herunterladen des [aktuellsten Releases](https://github.com/Significant-Gravitas/Auto-GPT/releases/latest)
+3. Befolge die [Installations-anleitung][docs/setup]
+4. Konfigurieren aller gewünschten zusätzlichen Funktionen und/oder Installation einiger [Plugins][docs/plugins]
+5. [Starte][docs/usage] AIVA
 
-Please see the [documentation][docs] for full setup instructions and configuration options.
-
+Lies die [Dokumentation][docs] für eine vollständige Einrichtungs-anleitung und Konfigurationsoptionen.
 [docs]: https://docs.agpt.co/
 
-## Documentation
-* [Setup][docs/setup]
-* [Usage][docs/usage]
+##### Hilfe gibt's auch hier - [Q&A](https://github.com/Significant-Gravitas/Auto-GPT/discussions/categories/q-a) oder [Discord](https://discord.gg/autogpt)
+
+
+## Dokumentation
+* [Einrichtung][docs/setup]
+* [Benutzung][docs/usage]
 * [Plugins][docs/plugins]
   
-#### Configuration
-  * [🔍 Web Search](https://docs.agpt.co/configuration/search/)
-  * [🧠 Memory](https://docs.agpt.co/configuration/memory/)
-  * [🗣️ Voice (TTS)](https://docs.agpt.co/configuration/voice/)
-  * [🖼️ Image Generation](https://docs.agpt.co/configuration/imagegen/)
+#### Konfiguration
+  * [🔍 Web Suche](https://docs.agpt.co/configuration/search/)
+  * [🧠 Gedächtnis](https://docs.agpt.co/configuration/memory/)
+  * [🗣️ Sprachausgabe (TTS)](https://docs.agpt.co/configuration/voice/)
+  * [🖼️ Bilder Generierung](https://docs.agpt.co/configuration/imagegen/)
 
 [docs/setup]: https://docs.agpt.co/setup/
 [docs/usage]: https://docs.agpt.co/usage/
 [docs/plugins]: https://docs.agpt.co/plugins/
 
 
-## Limitations
+## Limitationen
 
-This experiment aims to showcase the potential of GPT-4 but comes with some limitations:
+Dieses Experiment zielt darauf ab, das Potenzial von GPT-4 aufzuzeigen, hat aber einige Einschränkungen:
 
-1. Not a polished application or product, just an experiment
-2. May not perform well in complex, real-world business scenarios. In fact, if it actually does, please share your results!
-3. Quite expensive to run, so set and monitor your API key limits with OpenAI!
+1. Keine schicke Anwendung oder ein fertiges Produkt, nur ein Experiment
+2. Kann in komplexen, realen Geschäftsszenarien auch mal nicht gut funktionieren. Ein Mensch als Gutachter dazwischen ist immer empfehlenswert.
+3. Ist ziemlich teuer zu betreiben, also am besten ein Budget-Limit bei OpenAI festlegen und die Kosten laufend überwachen!
 
-## Disclaimer
+## Haftungsausschuss
 
-This project, Auto-GPT, is an experimental application and is provided "as-is" without any warranty, express or implied. By using this software, you agree to assume all risks associated with its use, including but not limited to data loss, system failure, or any other issues that may arise.
+Dieses Projekt, AIVA aka Auto-GPT, ist eine experimentelle Anwendung und wird "wie besehen" ohne jegliche ausdrückliche oder stillschweigende Garantie zur Verfügung gestellt. Durch die Verwendung dieser Software erklären Sie sich damit einverstanden, alle Risiken im Zusammenhang mit ihrer Verwendung zu übernehmen, einschließlich, aber nicht beschränkt auf Datenverlust, Systemausfälle oder andere Probleme, die auftreten können.
 
-The developers and contributors of this project do not accept any responsibility or liability for any losses, damages, or other consequences that may occur as a result of using this software. You are solely responsible for any decisions and actions taken based on the information provided by Auto-GPT.
+Die Entwickler und Mitwirkenden dieses Projekts übernehmen keine Verantwortung oder Haftung für Verluste, Schäden oder andere Folgen, die sich aus der Verwendung dieser Software ergeben können. Sie sind allein verantwortlich für alle Entscheidungen und Maßnahmen, die auf der Grundlage der von Auto-GPT bereitgestellten Informationen getroffen werden.
 
-**Please note that the use of the GPT-4 language model can be expensive due to its token usage.** By utilizing this project, you acknowledge that you are responsible for monitoring and managing your own token usage and the associated costs. It is highly recommended to check your OpenAI API usage regularly and set up any necessary limits or alerts to prevent unexpected charges.
+**Bitte beachten Sie, dass die Nutzung von GPT-4 sehr teuer sein kann.** Durch die Nutzung dieses Projekts erkennen Sie an, dass Sie für die Überwachung und Verwaltung Ihrer eigenen Token-Nutzung und der damit verbundenen Kosten verantwortlich sind. Es wird dringend empfohlen, Ihre OpenAI-API-Nutzung regelmäßig zu überprüfen und alle notwendigen Limits oder Warnungen einzurichten, um unerwartete Gebühren zu vermeiden.
 
-As an autonomous experiment, Auto-GPT may generate content or take actions that are not in line with real-world business practices or legal requirements. It is your responsibility to ensure that any actions or decisions made based on the output of this software comply with all applicable laws, regulations, and ethical standards. The developers and contributors of this project shall not be held responsible for any consequences arising from the use of this software.
+Als autonomes Experiment kann Auto-GPT Inhalte generieren oder Maßnahmen ergreifen, die nicht mit realen Geschäftspraktiken oder gesetzlichen Anforderungen übereinstimmen. Es liegt in Ihrer Verantwortung sicherzustellen, dass alle Handlungen oder Entscheidungen, die auf der Grundlage der Ausgabe dieser Software getroffen werden, allen geltenden Gesetzen, Vorschriften und ethischen Standards entsprechen. Die Entwickler und Mitwirkenden dieses Projekts sind nicht verantwortlich für Folgen, die sich aus der Verwendung dieser Software ergeben.
 
-By using Auto-GPT, you agree to indemnify, defend, and hold harmless the developers, contributors, and any affiliated parties from and against any and all claims, damages, losses, liabilities, costs, and expenses (including reasonable attorneys' fees) arising from your use of this software or your violation of these terms.
+Durch die Nutzung von Auto-GPT erklären Sie sich damit einverstanden, die Entwickler, Mitwirkenden und alle verbundenen Parteien von allen Ansprüchen, Schäden, Verlusten, Verbindlichkeiten, Kosten und Ausgaben (einschließlich angemessener Anwaltskosten), die sich aus Ihrer Nutzung dieser Software oder Ihrer Verletzung dieser Bedingungen ergeben, freizustellen, zu verteidigen und schadlos zu halten.
 
 
-## Sponsors
+## Sponsoren
 
-Development of this free, open-source project is made possible by all the sponsors and contributors. If you'd like to sponsor this project and have your avatar or company logo appear below
+Die Entwicklung dieses kostenlosen Open-Source-Projekts wird von allen Sponsoren und Mitwirkenden ermöglicht. Wenn Du dieses Projekt sponsern möchtest, kannst du dein Avatar oder dein Firmenlogo unten erscheinen lassen.
 
 <p align="center">
 <div align="center" class="logo-container">
