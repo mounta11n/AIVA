@@ -32,11 +32,11 @@ Please see the [documentation][docs] for full setup instructions and configurati
 [docs]: https://docs.agpt.co/
 
 ## Documentation
-* [⚙️ Setup][docs/setup]
-* [💻 Usage][docs/usage]
-* [🔌 Plugins][docs/plugins]
+* [Setup][docs/setup]
+* [Usage][docs/usage]
+* [Plugins][docs/plugins]
   
-### Configuration
+#### Configuration
   * [🔍 Web Search](https://docs.agpt.co/configuration/search/)
   * [🧠 Memory](https://docs.agpt.co/configuration/memory/)
   * [🗣️ Voice (TTS)](https://docs.agpt.co/configuration/voice/)
@@ -47,8 +47,6 @@ Please see the [documentation][docs] for full setup instructions and configurati
 [docs/plugins]: https://docs.agpt.co/plugins/
 
 
----
-
 ## Limitations
 
 This experiment aims to showcase the potential of GPT-4 but comes with some limitations:
@@ -57,7 +55,7 @@ This experiment aims to showcase the potential of GPT-4 but comes with some limi
 2. May not perform well in complex, real-world business scenarios. In fact, if it actually does, please share your results!
 3. Quite expensive to run, so set and monitor your API key limits with OpenAI!
 
-## 🛡 Disclaimer
+## Disclaimer
 
 This project, Auto-GPT, is an experimental application and is provided "as-is" without any warranty, express or implied. By using this software, you agree to assume all risks associated with its use, including but not limited to data loss, system failure, or any other issues that may arise.
 
@@ -72,6 +70,7 @@ By using Auto-GPT, you agree to indemnify, defend, and hold harmless the develop
 
 ## Sponsors
 
+Development of this free, open-source project is made possible by all the sponsors and contributors. If you'd like to sponsor this project and have your avatar or company logo appear below
 
 <p align="center">
 <div align="center" class="logo-container">
@@ -114,4 +113,3 @@ By using Auto-GPT, you agree to indemnify, defend, and hold harmless the develop
 </div>
 </br>
 
-Development of this free, open-source project is made possible by all the sponsors and contributors. If you'd like to sponsor this project and have your avatar or company logo appear below
