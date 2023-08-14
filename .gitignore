@@ -160,3 +160,5 @@ openai/
 
 # news
 CURRENT_BULLETIN.md
+
+.env
